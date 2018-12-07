@@ -6,5 +6,4 @@ RUN apt-get update &&\
  apt-get autoremove -y &&\
  apt-get autoclean -y
 RUN echo "Hello world"
-ADD 
 CMD ["/bin/bash"]
